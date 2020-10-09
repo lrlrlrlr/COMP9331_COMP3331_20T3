@@ -17,3 +17,6 @@ COMP9331/COMP3331课程资料分享
   tar -cf lab2.tar lab2.pdf PingServer.py
 ```
 
+## Week4
+1. [Lab3思路讲解](https://github.com/lrlrlrlr/COMP9331_COMP3331_20T3/blob/master/Labs/Lab3/COMP9331%20Lab3%E8%AF%BE%E5%A0%82%E7%AC%94%E8%AE%B0.pdf)  
+1. [Lab3 Exercise 4 样例代码](https://github.com/lrlrlrlr/COMP9331_COMP3331_20T3/blob/master/Labs/Lab3/WebServer.py)
