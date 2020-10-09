@@ -10,13 +10,18 @@ COMP9331/COMP3331课程资料分享
 1. [Lab2样例报告](https://github.com/lrlrlrlr/COMP9331_COMP3331_20T3/blob/master/Labs/Lab2/Lab2.pdf)  
 1. [Lab2 Exercise 5 样例代码](https://github.com/lrlrlrlr/COMP9331_COMP3331_20T3/blob/master/Labs/Lab2/PingClient%E6%A0%B7%E4%BE%8B.py)
 
+## Week4
+1. [Lab3思路讲解](https://github.com/lrlrlrlr/COMP9331_COMP3331_20T3/blob/master/Labs/Lab3/COMP9331%20Lab3%E8%AF%BE%E5%A0%82%E7%AC%94%E8%AE%B0.pdf)  
+1. [Lab3 Exercise 4 样例代码](https://github.com/lrlrlrlr/COMP9331_COMP3331_20T3/blob/master/Labs/Lab3/WebServer.py)
+
+
+
+
+## 其他内容
+
 ### 如何打包成tar文件
 ![Tar用法](https://github.com/lrlrlrlr/COMP9331_COMP3331_20T3/blob/master/Labs/Lab2/tar%E7%94%A8%E6%B3%95.jpg)
 样例: 在vlab里面把lab2.pdf文件和PingServer.py文件打包成lab2.tar.
 ```
   tar -cf lab2.tar lab2.pdf PingServer.py
 ```
-
-## Week4
-1. [Lab3思路讲解](https://github.com/lrlrlrlr/COMP9331_COMP3331_20T3/blob/master/Labs/Lab3/COMP9331%20Lab3%E8%AF%BE%E5%A0%82%E7%AC%94%E8%AE%B0.pdf)  
-1. [Lab3 Exercise 4 样例代码](https://github.com/lrlrlrlr/COMP9331_COMP3331_20T3/blob/master/Labs/Lab3/WebServer.py)
