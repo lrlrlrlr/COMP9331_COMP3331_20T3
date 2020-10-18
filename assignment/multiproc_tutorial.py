@@ -1,6 +1,6 @@
 import logging
-from multiprocessing import Pool
 import os, time, random
+import threading
 
 logging.basicConfig(level=logging.DEBUG, format='(%(threadName)-9s) %(message)s', )
 
@@ -15,10 +15,16 @@ def long_time_task(name):
 
 if __name__ == '__main__':
     logging.debug('Parent process %s.' % os.getpid())
-    p = Pool(4)
+
+    ts = list()
     for i in range(5):
-        p.apply_async(long_time_task, args=(i,))
+        ts.append(threading.Thread(target=long_time_task, args=(i,)))
+
+    for t in ts:
+        t.start()
+
     logging.debug('Waiting for all subprocesses done...')
-    p.close()
-    p.join()
+    for t in ts:
+        t.join()
+
     logging.debug('All subprocesses done.')

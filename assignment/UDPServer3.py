@@ -33,9 +33,14 @@ def recv_handler():
         message = message.decode()
         #get lock as we might me accessing some shared data structures
         with t_lock:
+            login_status = False
             currtime = dt.datetime.now()
             date_time = currtime.strftime("%d/%m/%Y, %H:%M:%S")
             print('Received request from', clientAddress[0], 'listening at', clientAddress[1], ':', message, 'at time ', date_time)
+
+            # while not login_status:
+            #     login_status = login(clientAddress)
+
             if(message == 'Subscribe'):
                 #store client information (IP and Port No) in list
                 clients.append(clientAddress)
@@ -53,6 +58,7 @@ def recv_handler():
             serverSocket.sendto(serverMessage.encode(), clientAddress)
             #notify the thread waiting
             t_lock.notify()
+
 
 
 def send_handler():
