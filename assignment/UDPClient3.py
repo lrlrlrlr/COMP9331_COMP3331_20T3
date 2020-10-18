@@ -18,7 +18,7 @@ receivedMessage, serverAddress = clientSocket.recvfrom(2048)
 
 if (receivedMessage.decode()=='Subscription successfull'):
     #Wait for 10 back to back messages from server
-    for i in range(100):
+    for i in range(10):
         receivedMessage, serverAddress = clientSocket.recvfrom(2048)
         print(receivedMessage.decode())
 #prepare to exit. Send Unsubscribe message to server

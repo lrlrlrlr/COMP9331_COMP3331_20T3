@@ -24,8 +24,11 @@ def recv_handler():
     global serverSocket
     print('Server is ready for service')
     while(1):
-        
-        message, clientAddress = serverSocket.recvfrom(2048)
+        try:
+            message, clientAddress = serverSocket.recvfrom(2048)
+        except ConnectionResetError:
+            print(f"Connection closed.")
+            continue
         #received data from the client, now we know who we are talking with
         message = message.decode()
         #get lock as we might me accessing some shared data structures
