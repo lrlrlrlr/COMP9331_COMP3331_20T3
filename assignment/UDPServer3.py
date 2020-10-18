@@ -83,10 +83,11 @@ recv_thread=threading.Thread(name="RecvHandler", target=recv_handler)
 recv_thread.daemon=True
 recv_thread.start()
 
-send_thread=threading.Thread(name="SendHandler",target=send_handler)
+send_thread=threading.Thread(name="SendHandler", target=send_handler)
 send_thread.daemon=True
 send_thread.start()
 #this is the main thread
 while True:
     time.sleep(0.1)
+
 
