@@ -19,6 +19,11 @@ COMP9331/COMP3331课程资料分享
 1. [讲解补充: socket编程例子](https://youtu.be/fxWdOsoY1jY) 
 1. [讲解补充: 多线程vs多进程](https://youtu.be/Nn_mtL5Dzu0) 
 
+## Week6
+1. [期中复习pdf](https://github.com/lrlrlrlr/COMP9331_COMP3331_20T3/blob/master/midterm/midterm_Notes.pdf)  
+1. [完整复习笔记doc版](https://github.com/lrlrlrlr/COMP9331_COMP3331_20T3/blob/master/midterm/F_Notes.docx) 
+
+
 
 ## 其他内容
 
