@@ -23,8 +23,11 @@ COMP9331/COMP3331课程资料分享
 1. [期中复习pdf](https://github.com/lrlrlrlr/COMP9331_COMP3331_20T3/blob/master/midterm/midterm_Notes.pdf)  
 1. [完整复习笔记doc版](https://github.com/lrlrlrlr/COMP9331_COMP3331_20T3/blob/master/midterm/F_Notes.docx) 
 
+## Week7
+1. [Lab4参考答案]()
+
 ## Week8
-1. [Lab5讲解](https://github.com/lrlrlrlr/COMP9331_COMP3331_20T3/blob/master/Labs/Lab5/%E5%8F%82%E8%80%83%E7%AD%94%E6%A1%88.pdf)
+1. [Lab5参考答案](https://github.com/lrlrlrlr/COMP9331_COMP3331_20T3/blob/master/Labs/Lab5/%E5%8F%82%E8%80%83%E7%AD%94%E6%A1%88.pdf)
 
 ## 其他内容
 
