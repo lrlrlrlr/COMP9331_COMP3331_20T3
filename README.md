@@ -33,7 +33,7 @@ COMP9331/COMP3331课程资料分享
 1. [Lab6参考答案](https://github.com/lrlrlrlr/COMP9331_COMP3331_20T3/blob/master/Labs/Lab6/Answer.pdf)
 1. [Lab6代码文件](https://github.com/lrlrlrlr/COMP9331_COMP3331_20T3/tree/master/Labs/Lab6)
 
-## Week9-Assignment
+## Week10-Assignment
 1. [**Assignment代码模板**](https://github.com/lrlrlrlr/COMP9331_COMP3331_20T3/tree/master/assignment/class2_demo_code)
 1. [Assignment课件1](https://github.com/lrlrlrlr/COMP9331_COMP3331_20T3/blob/master/assignment/Assignment%E8%AE%B2%E8%A7%A31_%E9%A2%84%E5%A4%87%E7%9F%A5%E8%AF%86.pdf)
 1. [**Assignment课件2**](https://github.com/lrlrlrlr/COMP9331_COMP3331_20T3/blob/master/assignment/Assignment%E8%AE%B2%E8%A7%A32_%E6%80%9D%E8%B7%AF%E5%92%8C%E4%BB%A3%E7%A0%81.pdf)
